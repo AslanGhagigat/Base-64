@@ -35,4 +35,5 @@ while True:
         l.append(k)
     for p in range(len(l)):q= l[p]; print(alphabet[q],end='')
     if e%6 == 2:print("==")
-    else:print("=")
+    elif e%6 == 4:print("=")
+    print('\n')
